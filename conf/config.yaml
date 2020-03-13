@@ -1,0 +1,7 @@
+lastAccount: ''
+lastHost: ''
+lastProtocolIndex: 1
+vaultServers:
+- vaultserver1
+- vaultserver2
+- vaultserver3
