@@ -193,6 +193,7 @@ class Action:
             if self.width and self.height:
                 width = self.width
                 height = self.height
+                screen_mode = 1
             else:
                 if self.protocol == "RDP":
                     width = 0
