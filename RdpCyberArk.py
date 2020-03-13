@@ -206,7 +206,7 @@ class Action:
                     height = 0
             new_text = new_text.replace('#WIDTH#', str(width))
             new_text = new_text.replace('#HEIGHT#', str(height))
-            new_text = new_text.replace('#SCREENMODE#', screen_mode)
+            new_text = new_text.replace('#SCREENMODE#', str(screen_mode))
         with open(dest_file_name, "w") as f:
             f.write(new_text)
         if sys.platform == "win32":
